@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+h1{
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+div{
+    background: greenyellow ; 
+}
+@media (min-width:700px){
+    h1{
+ font-size: 100px;
+    }
+    div{
+        background: yellow;
+    }
+    body{
+        background: blue;
+    }
+}
+@media (max-width:200px) {
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        color: bisque;
+    }
+    div{
+        background: sandybrown;
+    }
+    body{
+        background: navy;
+    }
+    
+}
