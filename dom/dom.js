@@ -1,4 +1,2 @@
-console.log(document);
-const button = document.createElement("button")
-console.log(button);
-button.
+const div = document.createElement("div")
+console.log(div);
